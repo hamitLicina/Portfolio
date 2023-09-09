@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Tab Bar</title>
 </head>
 <body>
@@ -12,31 +13,32 @@
             <ul>
                 <li>
                     <a onclick="addClass(0)" href="#" class="d-flex justify-content-center align-items-center link isActive">
-                        <i class="material-icons-outlined">home</i>
+                        <i class="material-symbols-outlined">home</i>
                         <span>home</span>
                     </a>
                 </li>
                 <li>
                     <a onclick="addClass(1)" href="#" class="d-flex justify-content-center align-items-center link">
-                        <i class="material-icons-outlined">search</i>
+                        <i class="material-symbols-outlined">search</i>
                         <span>search</span>
                     </a>
                 </li>
                 <li>
                     <a onclick="addClass(2)" href="#" class="d-flex justify-content-center align-items-center link">
-                        <i class="material-icons-outlined">notifications</i>
+                        <i class="material-symbols-outlined">notifications</i>
                         <span>notifications</span>
                     </a>
                 </li>
                 <li>
                     <a onclick="addClass(3)" href="#" class="d-flex justify-content-center align-items-center link">
-                        <i class="material-icons-outlined">settings</i>
+                        <i class="material-symbols-outlined">settings</i>
                         <span>settings</span>
                     </a>
                 </li>                
             </ul>
         </nav>
     </div>
+    
     <script>
         function addClass(elem) {
             for (let i = 0; i < elem.length; i++) {

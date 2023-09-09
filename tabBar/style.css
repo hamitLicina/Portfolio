@@ -33,7 +33,7 @@ body {
 
 nav {
     width: 100%;
-    max-width: 480px;
+    max-width: 1080px;
     background-color: #fff;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -51,7 +51,7 @@ nav li {
 }
 
 nav a {
-    height: 80px;
+    height: 40px;
     width: 100%;
     text-decoration: none;
     position: relative;
@@ -176,4 +176,12 @@ nav a.isActive span:after {
 nav a.isActive:after {
     height: 10px;
     transition: height 1s;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
