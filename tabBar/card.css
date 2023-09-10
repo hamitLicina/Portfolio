@@ -102,13 +102,13 @@
 }
 
 .action-buttons a {
-    background-color: var(--primary);
+    background-color: #7370f4;
     color: white;
     padding: 12px;
     text-decoration: none;
     border-radius: 12px;
     outline: none;
-    border: none;
+    border:  1px solid var(--primary);
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -123,8 +123,8 @@
 }
 
 .action-buttons a.secondary {
-    background-color: inherit;
-    color: var(--primary);
+    background-color: #7370f4;
+    color: white;
     border: 1px solid var(--primary);
     flex: 1 0 80px;
 }
